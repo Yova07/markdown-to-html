@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Markdown to HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <div id="main">
+
     <!----------Header---------->
 
-    <h1>Igor Jovanovic</h1>
-    <p><i>Better late than never</i></p>
-    <img src="./1664530067412.jpg" alt="Profil picture" style="width: 600px;">
-    <h3><i>"The cure for boredom is curiosity"</i></h3>
+    <h1>Igor <span>J</span>ovanovic</h1>
+    <p class="sentence"><i>"Better late than never"</i></p>
+    <img src="./Images/1664530067412.jpg" alt="Profil picture">
+    <h3 class="quote"><blockquote><i>"The cure for boredom is curiosity"</i></blockquote></h3>
+    <hr/>
 
     <!----------Table---------->
 
     <table>
         <tr>
-            <td>Birthday</td>
+            <td class="bold">Birthday</td>
             <td>7 November 1995</td>
         </tr>
         <tr>
-            <td>Favorite color</td>
+            <td class="bold">Favorite color</td>
             <td>Blue</td>
         </tr>
         <tr>
-            <td>Favorite food</td>
+            <td class="bold">Favorite food</td>
             <td>Tacos</td>
         </tr>
         <tr>
-            <td>Pineaple on pizza</td>
+            <td class="bold">Pineaple on pizza</td>
             <td>Yes</td>
         </tr>
     </table>
 
-    <!---------Personnal informations---------->
+    <!---------Personal informations---------->
 
-    <h3>Hobbies</h3>
-    <ul>
+    <h3 class="subTitle">Hobbies</h3>
+    <ul class="text">
         <li>Making music</li>
         <li>City trip -> My favorite ones :</li>
         <ul>
@@ -52,13 +56,21 @@
     </ul>
 
 
-    <h3>You can always count on me when...</h3>
-    <p>You're struggling with something, even if I'm struggling too.</p>
+    <h3 class="subTitle">You can always count on me when...</h3>
+    <p class="text">You're struggling with something, even if I'm struggling too.</p>
 
-    <h3>Funny story</h3>
-    <p>When I was kid, I had a plastic lizard. My father told me that when a lizard lost its tail, it grew back. So I cut off its tail and waited to see it grow back... I'm still waiting...</p>
+    <h3 class="subTitle">Funny story</h3>
+    <p class="text">When I was kid, I had a plastic lizard. My father told me that when a lizard lost its tail, it grew back. So I cut off its tail and waited to see it grow back... I'm still waiting...</p>
+
+    <!----------Footer---------->
 
     <footer><a href=https://github.com/hanaelle/markdown-challenge>Previous</a> || IGOR JOVANOVIC || <a href="https://github.com/TreshMiralissa/markdown-challenge-">Next</a></footer>
+
+    </div>
+
+    <!----------Bottom space---------->
+    
+    <div style="height:100px;"></div>
 
 </body>
 </html>

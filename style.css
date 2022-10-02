@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Josefin+Sans:ital,wght@1,300&family=Righteous&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    
+}
+
+/*-----------Main-----------*/
+
+#main {
+    margin: 0 auto;
+    width: 60%;
+    box-shadow: 2px 2px 20px black;
+    position: relative;
+    background-color: #80280B;
+}
+
+/*----------Header-----------*/
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 10px;
+}
+span {
+    font-size: 140px;
+}
+.sentence {
+    text-align: center;
+    position: absolute;
+    top : 65px;
+    left: 440px;
+    text-shadow: 1px 1px 5px black;
+    font-size: 25px;
+
+}
+img {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid white;
+    filter: contrast(120%);
+}
+.quote {
+    margin-top: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+hr {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+/*----------Table----------*/
+
+table{
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: 'Gruppo', cursive;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+}
+td {
+    border: 1px solid black;
+    padding : 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*-----------Personal informations----------*/
+
+.subTitle {
+    width: 90%;
+    text-align: center;
+    padding: 5px;
+    margin: 50px auto;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+.text {
+    width: 80%;
+    color: white;
+    margin : 0 auto;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px black;
+}
+
+/*----------Footer----------*/
+
+footer {
+    padding: 70px 0;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    transition: opacity 0.3s;
+}
+a:hover {
+    opacity: 100%;
+}
